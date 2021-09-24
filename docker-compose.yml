@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  notes-app-fe:
+    container_name: notes-app-fe
+    build: .
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "3000:3000"

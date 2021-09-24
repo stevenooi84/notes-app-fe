@@ -1,0 +1,25 @@
+.textfield {
+    background-color: #fff;
+    margin: 20px;
+}
+
+.button-submit {
+    margin: 20px !important;
+}
+
+
+.note .content {
+    width: 100%;
+}
+.note .tag {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.note .content .title{
+    margin: 10px 0px;
+}
+.note .tag .title{
+    margin: 10px 0px;
+}

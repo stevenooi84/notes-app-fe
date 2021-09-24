@@ -1,10 +1,33 @@
+body {
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, sans-serif;
+  
+}
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+header {
+  margin: 20px 0px;
+}
+header .left-col {
+  width: 50%;
+}
+
+header .right-col {
+  width: 50%;
+}
+
+header .title {
+  font-size: 32.0854px;
+  font-weight: 500;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +36,12 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.app-container {
+  width: 60vw;
+  min-width: 375px;
+  border: 1px solid #eeeeee;
+  padding: 0px 20px 20px 20px;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

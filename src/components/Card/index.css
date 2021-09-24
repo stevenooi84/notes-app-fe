@@ -1,0 +1,25 @@
+
+.card {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.card .content {
+  margin: 20px 5px;
+}
+
+.card .content .left-col {
+    width: 80%;
+}
+
+.card .content .right-col {
+    width: 20%;
+}
+.card .header {
+    margin-top: -25px;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    height: 20px;
+}
